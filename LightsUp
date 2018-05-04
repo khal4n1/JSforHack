@@ -1,0 +1,1 @@
+javascript:var allt = document.getElementsByTagName("*");Array.prototype.forEach.call(allt, function(all) {all.disabled = false;all.removeAttribute('readonly'); if (all.getAttribute("type")=="hidden"){all.setAttribute("type","text");}});

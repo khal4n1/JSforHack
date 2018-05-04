@@ -1,0 +1,1 @@
+javascript:var a=prompt("Paste the URL to encode URI (params only)","http://example.com");prompt("Press CTRL + C to copy to clipboard",encodeURI(a));

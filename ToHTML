@@ -1,0 +1,1 @@
+javascript:var a=prompt("Paste the script to encode HTML","<sCrIpT>alert(\"XSS\")</sCrIpT>");prompt("Press CTRL + C to copy to clipboard",a.replace(/&/g, '&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'));

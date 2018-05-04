@@ -1,0 +1,1 @@
+javascript:var a=prompt("What is the cookie name to create","JSESSIONID");var b=prompt("What is the value of the cookie", "JSID89345422");document.cookie=a+"="+b+"; ";alert("cookie created!")
